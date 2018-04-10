@@ -1,0 +1,64 @@
+body{
+    background-image: linear-gradient(to left, white,blue 140%);
+    font-family: "Arial","Helvetica",sans-serif;
+    font-size: 17pt;
+}
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    width: 940px;
+}
+#formulario, #resposta{
+    background-color: white;
+    width: 480px;
+    height: 320px;
+    margin-left: 230px;
+    margin-top: 150px;
+    border: 3px dashed black;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+form{
+    margin-top: 110px;
+    margin-left: 120px;
+}
+
+input{
+    display: block;
+    padding: 5px;
+    margin: 10px;
+    text-align: center;
+}
+
+input[type='text'], input[type='password']{
+    min-width: 200px;
+    border-radius: 10px;
+    color: gray;
+    font-size: 12pt;
+    padding-left:10px;
+    padding-right: 10px;
+}
+
+input[type='submit']{
+    margin-left: 70px;
+    margin-top: 20px;
+    background-color: transparent;
+    border: 2px dashed black;
+    padding: 5px;
+    cursor: pointer;
+}
+
+input[type='submit']:hover{
+    transition: 1s linear;
+    background-color: blue;
+    color: white;
+    width: 120px;
+    border-radius: 15px;
+    border-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
